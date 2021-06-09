@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/magenta"
+    tools:context=".Cursos">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="379dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/ciano"
+        android:onClick="clickVoltar"
+        android:text="@string/strVoltar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/strCursoTítulo"
+        android:textAlignment="center"
+        android:textColor="@color/branco"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/imgCursoPortugol"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0"
+                android:onClick="clickCursoPortugol"
+                app:srcCompat="@drawable/androidum" />
+
+            <ImageView
+                android:id="@+id/imgCursoC"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0"
+                android:onClick="clickCursoC"
+                app:srcCompat="@drawable/androidum" />
+
+            <ImageView
+                android:id="@+id/imgCursoPhP"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0"
+                android:onClick="clickCursoPHP"
+                app:srcCompat="@drawable/androidum" />
+
+            <ImageView
+                android:id="@+id/imgCursoCSharp"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0"
+                android:onClick="clickCursoCSharp"
+                app:srcCompat="@drawable/androidum" />
+
+            <ImageView
+                android:id="@+id/imgCursoKotlin"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0"
+                android:onClick="clickCursoKotlin"
+                app:srcCompat="@drawable/androidum" />
+
+            <ImageView
+                android:id="@+id/imgCursoVideo"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0"
+                android:onClick="clickCursoVideo"
+                app:srcCompat="@drawable/androidum" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

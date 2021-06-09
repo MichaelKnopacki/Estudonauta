@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Estudonauta</string>
+    <string name="strDireitos">Michael Knopacki</string>
+    <string name="strEquipe">EQUIPE</string>
+    <string name="imgEstudonautaTopo">Estudonauta Topo</string>
+    <string name="strCursos">CURSOS</string>
+    <string name="strMidia">MIDIA</string>
+    <string name="strVoltar">VOLTAR</string>
+    <string name="strEquipeTitulo">EquipeEstudonauta</string>
+    <string name="strEquipeDescricao">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget nulla non augue vehicula pulvinar sit amet id elit. Ut semper urna vel ultricies pharetra. Vestibulum efficitur lectus quis volutpat rhoncus.
+            Etiam id eros eget mi blandit tincidunt. Curabitur eu imperdiet augue. Donec quis nulla tristique, dictum est in, sagittis libero. Curabitur faucibus libero nisi, ac sodales est ultrices elementum. Aenean aliquet pulvinar velit sed luctus. Pellentesque quis enim at risus consequat posuere.
+            Duis elementum ex nunc, viverra aliquet eros malesuada molestie. Vivamus tempor porta dictum. Nulla facilisi. Cras nisl quam, semper quis nisi vitae, aliquet molestie velit.</string>
+    <string name="strEquipeA">A Scremin ( edição de corte )</string>
+    <string name="strEquipeB">B (professor)</string>
+    <string name="strEquipeC">C ( edição de corte )</string>
+    <string name="strEquipeD">D (finalização)</string>
+    <string name="strEquipeE">E (programação)</string>
+    <string name="strCursoTítulo">Todos os Cursos</string>
+</resources>
