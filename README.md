@@ -9,10 +9,11 @@ Mais um projeto realizado durante um dos módulos do Curso de Android do Estudon
 
 - [Layout](#layout)
 - [Drawable](#drawable)
-- [Tradutor](#tradutor)
-- [Textos Coloridos](#Textos_Coloridos)
-- [Toast](#toast)
-- [Imagem Dinâmica](#Imagem_Dinâmica)
+- [Pequenos Detalhes](#PEQUENOS-DETALHES-DO-PROJETO)
+    - [Voltar](#voltar)
+    - [Link](#link)
+    - [Vídeo](#Video)
+    - [Strings](#Strings)
 
 <br />
 
@@ -123,6 +124,10 @@ Para isso usamos um atalho.
 ![image](https://user-images.githubusercontent.com/77402918/121406213-42bb8500-c934-11eb-9028-cff08a516e5a.png)
 
 ![image](https://user-images.githubusercontent.com/77402918/121406247-4c44ed00-c934-11eb-9c72-6cf48dacd3fb.png)
+
+<br />
+
+## Como Contribuir
 
 <br />
 
